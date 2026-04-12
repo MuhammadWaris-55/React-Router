@@ -5,6 +5,7 @@ const Navbar = () => {
   return (
     <nav>
       <ul>
+         {/* Apply "active" class when route matches */}
         <NavLink className={(e) => { return e.isActive ? "active" : "" }} to="/"><li>Home</li></NavLink>
         <NavLink className={(e) => { return e.isActive ? "active" : "" }} to="/about"><li>About</li></NavLink>
         <NavLink className={(e) => { return e.isActive ? "active" : "" }} to="/contact"><li>Contact</li></NavLink>
