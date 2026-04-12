@@ -7,6 +7,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 
+// Define app routes with App as layout and child routes
 const router = createBrowserRouter([
   {
     path: "/",
