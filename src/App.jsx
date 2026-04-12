@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <Navbar />
-      <Outlet />
+      <Outlet />  {/* Renders the matched child route */}
      <Footer/>
     </>
   )
